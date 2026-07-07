@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SERENA — Softness you can live in.</title>
+  <meta name="description" content="Premium sleepwear & loungewear for women 17+.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='75' font-size='80' font-family='Cormorant Garamond,serif'%3ES%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+
+  <!-- ANNOUNCEMENT -->
+  <div class="announce">
+    <div class="announce__track">
+    </div><div class="announce__track">
+    </div>
+  </div>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo"><img src="logo.png" alt="SERENA"></a>
+      <div class="nav__links">
+        <a href="collections.html" data-i18n="nav_shop"></a>
+        <a href="size-guide.html" data-i18n="nav_size_guide"></a>
+      </div>
+      <div class="nav__actions">
+        <button id="lang-toggle-btn" onclick="toggleLang()"></button>
+        <svg class="nav__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <circle cx="11" cy="11" r="7"/><path d="m21 21-4.35-4.35"/>
+        </svg>
+        <a href="#" data-open-bag style="position:relative">
+          <svg class="nav__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M6 7h12l-1 13H7L6 7Z"/><path d="M9 7V5a3 3 0 0 1 6 0v2"/>
+          </svg>
+          <span id="bag-count" style="display:none;position:absolute;top:-6px;right:-10px;background:var(--cocoa);color:var(--linen);width:18px;height:18px;border-radius:50%;font-size:10px;align-items:center;justify-content:center;">0</span>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__bg">
+      <svg viewBox="0 0 1440 800" preserveAspectRatio="xMidYMid slice">
+        <defs>
+          <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#F7F3EC"/>
+            <stop offset="100%" stop-color="#E8DCC4"/>
+          </linearGradient>
+          <radialGradient id="sun" cx="80%" cy="30%" r="40%">
+            <stop offset="0%" stop-color="#F2D6B3" stop-opacity="0.6"/>
+            <stop offset="100%" stop-color="#F2D6B3" stop-opacity="0"/>
+          </radialGradient>
+        </defs>
+        <rect width="1440" height="800" fill="url(#sky)"/>
+        <rect width="1440" height="800" fill="url(#sun)"/>
+        <path d="M0,560 Q360,520 720,560 T1440,560 L1440,800 L0,800 Z" fill="#C9A87C" opacity="0.3"/>
+        <path d="M0,640 Q480,600 960,640 T1440,640 L1440,800 L0,800 Z" fill="#A8B5A0" opacity="0.25"/>
+        <circle cx="1180" cy="180" r="60" fill="#F7F3EC" opacity="0.9"/>
+        <circle cx="1200" cy="170" r="60" fill="url(#sky)"/>
+        <g transform="translate(900,420)">
+          <ellipse cx="0" cy="0" rx="80" ry="120" fill="#E8B4A8" opacity="0.7"/>
+          <circle cx="0" cy="-140" r="40" fill="#E8B4A8" opacity="0.7"/>
+        </g>
+        <g transform="translate(200,500)" opacity="0.4" stroke="#3D2F2A" stroke-width="1" fill="none">
+          <path d="M0,0 Q10,-30 0,-60 Q-10,-90 0,-120"/>
+          <path d="M0,-30 Q15,-35 25,-25"/>
+          <path d="M0,-60 Q-15,-65 -25,-55"/>
+          <path d="M0,-90 Q15,-95 25,-85"/>
+        </g>
+      </svg>
+    </div>
+    <div class="container">
+      <div class="hero__content fade-up">
+        <span class="eyebrow hero__eyebrow" data-i18n="hero_eyebrow"></span>
+        <h1 class="display" data-i18n="hero_h1"></h1>
+        <p class="lede mt-md" data-i18n="hero_p"></p>
+        <div class="hero__actions">
+          <a href="collections.html" class="btn btn--primary btn--lg" data-i18n="hero_cta1"></a>
+      
+        </div>
+      </div>
+    </div>
+    <div class="hero__scroll">
+      <span data-i18n="hero_scroll"></span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- KEYWORDS MARQUEE -->
+  <section class="keywords">
+    <div class="keywords__track">
+      <span>Serenity</span><span class="keywords__dot"></span>
+      <span>Ease</span><span class="keywords__dot"></span>
+      <span>Relax</span><span class="keywords__dot"></span>
+      <span>Embrace</span><span class="keywords__dot"></span>
+      <span>Assurance</span><span class="keywords__dot"></span>
+      <span>Serenity</span><span class="keywords__dot"></span>
+      <span>Ease</span><span class="keywords__dot"></span>
+      <span>Relax</span><span class="keywords__dot"></span>
+      <span>Embrace</span><span class="keywords__dot"></span>
+      <span>Assurance</span><span class="keywords__dot"></span>
+    </div>
+  </section>
+
+  <!-- COLLECTIONS PREVIEW -->
+  <section class="section section--tight" style="background:var(--sand)">
+    <div class="container">
+      <div class="text-center fade-up">
+        <span class="eyebrow" data-i18n="coll_eyebrow"></span>
+        <h2 class="h1" data-i18n="coll_h2"></h2>
+        <p class="lede mx-auto mt-md text-center" data-i18n="coll_subp"></p>
+      </div>
+      <div class="products">
+
+        <a href="product.html?id=model1" class="product fade-up">
+          <div class="product__media" style="background:#5B1A2E22;">
+            <img src="images/model1-maroon-1.jpg" alt="model1-maroon-1.jpg" style="width:100%;height:100%;object-fit:cover" onerror="this.style.display='none'">
+          </div>
+       <div class="product__name" data-i18n="prod1_name"></div>
+<div class="product__mood"> DARK RED . ORANGE </div>
+<div class="product__price" data-i18n="price_475"></div>
+        </a>
+
+        <a href="product.html?id=model2" class="product fade-up">
+          <div class="product__media" style="background:#E8A0B022;">
+            <img src="images/model2-pink-1.jpg" alt="موديل 2" style="width:100%;height:100%;object-fit:cover" onerror="this.style.display='none'">
+          </div>
+          <div class="product__name" data-i18n="prod2_name"></div>
+<div class="product__mood"> PINK . Off-White . DARK RED </div>
+<div class="product__price" data-i18n="price_475"></div>
+        </a>
+
+        <a href="product.html?id=model3" class="product fade-up">
+          <div class="product__media" style="background:#C75B2A22;">
+            <img src="images/model3-pink-1.jpg" alt="موديل 3" style="width:100%;height:100%;object-fit:cover" onerror="this.style.display='none'">
+          </div>
+          <div class="product__name" data-i18n="prod3_name"></div>
+<div class="product__mood"> PINK . ORANGE </div>
+<div class="product__price" data-i18n="price_475"></div>
+        </a>
+
+        <a href="product.html?id=model4" class="product fade-up">
+          <div class="product__media" style="background:#E07B3A22;">
+            <img src="images/model4-maroon-1.jpg" alt="موديل 4" style="width:100%;height:100%;object-fit:cover" onerror="this.style.display='none'">
+          </div>
+          <div class="product__name" data-i18n="prod4_name"></div>
+<div class="product__mood"> DARK RED . ORANGE . Off-White </div>
+<div class="product__price" data-i18n="price_475"></div>
+        </a>
+
+        <a href="product.html?id=model5" class="product fade-up">
+          <div class="product__media" style="background:#E8A0B022;">
+            <img src="images/model5-pink-1.jpg" alt="موديل 5" style="width:100%;height:100%;object-fit:cover" onerror="this.style.display='none'">
+          </div>
+         <div class="product__name" data-i18n="prod5_name"></div>
+<div class="product__mood"> PINK . DARK RED </div>
+<div class="product__price" data-i18n="price_475"></div>
+        </a>
+
+        <a href="product.html?id=model6" class="product fade-up">
+          <div class="product__media" style="background:#F5ECD722;">
+            <img src="images/model6-offwhite-1.jpg" alt="موديل 6" style="width:100%;height:100%;object-fit:cover" onerror="this.style.display='none'">
+          </div>
+         <div class="product__name" data-i18n="prod7_name"></div>
+<div class="product__mood"> Off-White </div>
+<div class="product__price" data-i18n="price_475"></div>
+        </a>
+
+        <a href="product.html?id=model7" class="product fade-up">
+          <div class="product__media" style="background:#F5ECD722;">
+            <img src="images/model7-offwhite-1.jpg" alt="موديل 7" style="width:100%;height:100%;object-fit:cover" onerror="this.style.display='none'">
+          </div>
+         <div class="product__name" data-i18n="prod7_name"></div>
+<div class="product__mood"> Off-White </div>
+<div class="product__price" data-i18n="price_475"></div>
+        </a>
+
+        <a href="product.html?id=model8" class="product fade-up">
+          <div class="product__media" style="background:#1A1A1A22;">
+            <img src="images/model8-maroon-1.jpg" alt="موديل 8" style="width:100%;height:100%;object-fit:cover" onerror="this.style.display='none'">
+          </div>
+        <div class="product__name" data-i18n="prod8_name"></div>
+<div class="product__mood"> DARK RED . Off-White . ORANGE . BLACK </div>
+<div class="product__price" data-i18n="price_475"></div>
+        </a>
+
+      </div>
+      <div class="text-center mt-lg fade-up">
+        <a href="collections.html" class="btn btn--primary btn--lg" data-i18n="coll_cta"></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWSLETTER -->
+  <section class="newsletter">
+    <div class="container">
+      <span class="eyebrow" style="color:var(--warm-beige)" data-i18n="news_eyebrow"></span>
+      <h2 class="h1" data-i18n="news_h2"></h2>
+      <p data-i18n="news_p"></p>
+      <form class="newsletter__form">
+        <input type="email" class="newsletter__input" data-i18n-ph="news_ph" required>
+        <button type="submit" class="newsletter__submit" data-i18n="news_btn"></button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="footer__brand-name">SERENA</div>
+          <p class="footer__tagline" data-i18n="footer_tagline"></p>
+          <div class="footer__social">
+            <a href="https://www.instagram.com/serena.official1" aria-label="Instagram" target="_blank">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <rect x="3" y="3" width="18" height="18" rx="5"/>
+                <circle cx="12" cy="12" r="4"/>
+                <circle cx="17.5" cy="6.5" r="1" fill="currentColor"/>
+              </svg>
+            </a>
+            <a href="https://www.facebook.com/serena.official1" aria-label="Facebook" target="_blank">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M22 12a10 10 0 1 0-11.5 9.9v-7H7.9V12h2.6V9.8c0-2.6 1.5-4 3.9-4 1.1 0 2.3.2 2.3.2v2.5h-1.3c-1.3 0-1.7.8-1.7 1.6V12h2.9l-.5 2.9h-2.4v7A10 10 0 0 0 22 12Z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4 data-i18n="footer_shop"></h4>
+          <ul>
+            <li><a href="collections.html" data-i18n="footer_shop"></a></li>
+            <li><a href="collections.html">Serenity</a></li>
+            <li><a href="collections.html">Ease</a></li>
+            <li><a href="collections.html">Relax</a></li>
+            <li><a href="collections.html">Embrace</a></li>
+            <li><a href="collections.html">Assurance</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 data-i18n="footer_brand"></h4>
+          <ul>
+           
+            <li><a href="#" data-i18n="footer_press"></a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 data-i18n="footer_help"></h4>
+          <ul>
+          
+            <li><a href="size-guide.html" data-i18n="footer_size"></a></li>
+            
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 data-i18n="footer_contact"></h4>
+          <ul>
+            <li><a href="mailto:s31228973@gmail.com">s31228973@gmail.com</a></li>
+            <li><a href="#" data-i18n="footer_dm"></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div data-i18n="footer_copy"></div>
+        <div data-i18n="footer_sub"></div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- BAG DRAWER -->
+  <div class="drawer__overlay" id="drawer-overlay"></div>
+  <aside class="drawer" id="drawer">
+    <div class="drawer__head">
+      <h3 data-i18n="bag_title"></h3>
+      <button class="drawer__close" id="drawer-close">✕</button>
+    </div>
+    <div class="drawer__body" id="drawer-body"></div>
+    <div class="drawer__foot" id="drawer-foot">
+      <div class="drawer__total"><span data-i18n="bag_subtotal"></span><span id="drawer-total">$0</span></div>
+      <a href="#" class="btn btn--primary" data-i18n="bag_checkout"></a>
+    </div>
+  </aside>
+
+  <div class="toast" id="toast"></div>
+
+  <script src="js/lang.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
