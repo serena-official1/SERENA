@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop — SERENA | The First Night</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="announce">
+    <div class="announce__track">
+    </div>
+  </div>
+
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">SERENA</a>
+      <div class="nav__links">
+        <a href="collections.html" style="color:var(--cocoa);font-weight:500" data-i18n="nav_shop"></a>
+        <a href="size-guide.html" data-i18n="nav_size_guide"></a>
+     
+      </div>
+      <div class="nav__actions">
+        <button id="lang-toggle-btn" onclick="toggleLang()"></button>
+        <svg class="nav__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.35-4.35"/></svg>
+        <a href="#" data-open-bag style="position:relative">
+          <svg class="nav__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 7h12l-1 13H7L6 7Z"/><path d="M9 7V5a3 3 0 0 1 6 0v2"/></svg>
+          <span id="bag-count" style="display:none;position:absolute;top:-6px;right:-10px;background:var(--cocoa);color:var(--linen);width:18px;height:18px;border-radius:50%;font-size:10px;align-items:center;justify-content:center;">0</span>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="coll-header">
+    <div class="container">
+      <span class="eyebrow" data-i18n="coll_page_eyebrow"></span>
+      <h1 class="display" data-i18n="coll_page_h1"></h1>
+      <p class="lede mx-auto text-center mt-md" data-i18n="coll_page_p"></p>
+    </div>
+  </header>
+
+  <section class="container">
+    <div class="filters"></div>
+
+    <div class="products products--four">
+
+      <a href="product.html?id=model1" class="product fade-up">
+        <div class="product__media" style="background:#5B1A2E22;display:flex;align-items:center;justify-content:center;">
+          <img src="images/model1-maroon-1.jpg" alt="موديل 1" style="width:100%;height:100%;object-fit:cover" onerror="this.style.display='none'">
+        </div>
+          <div class="product__name">موديل 1</div>
+          <div class="product__mood"> DARK RED </div>
+          <div class="product__price">475 جنيه</div>
+        </a>
+
+        <a href="product.html?id=model2" class="product fade-up">
+          <div class="product__media" style="background:#E8A0B022;">
+            <img src="images/model2-pink-1.jpg" alt="موديل 2" style="width:100%;height:100%;object-fit:cover" onerror="this.style.display='none'">
+          </div>
+          <div class="product__name">موديل 2</div>
+          <div class="product__mood"> PINK . Off-White . DARK RED </div>
+          <div class="product__price">475 جنيه</div>
+        </a>
+
+        <a href="product.html?id=model3" class="product fade-up">
+          <div class="product__media" style="background:#C75B2A22;">
+            <img src="images/model3-pink-1.jpg" alt="موديل 3" style="width:100%;height:100%;object-fit:cover" onerror="this.style.display='none'">
+          </div>
+          <div class="product__name">موديل 3</div>
+          <div class="product__mood"> PINK . ORANGE </div>
+          <div class="product__price">475 جنيه</div>
+        </a>
+
+        <a href="product.html?id=model4" class="product fade-up">
+          <div class="product__media" style="background:#E07B3A22;">
+            <img src="images/model4-maroon-1.jpg" alt="موديل 4" style="width:100%;height:100%;object-fit:cover" onerror="this.style.display='none'">
+          </div>
+          <div class="product__name">موديل 4</div>
+          <div class="product__mood"> DARK RED . ORANGE . Off-White </div>
+          <div class="product__price">475 جنيه</div>
+        </a>
+
+        <a href="product.html?id=model5" class="product fade-up">
+          <div class="product__media" style="background:#E8A0B022;">
+            <img src="images/model5-pink-1.jpg" alt="موديل 5" style="width:100%;height:100%;object-fit:cover" onerror="this.style.display='none'">
+          </div>
+          <div class="product__name">موديل 5</div>
+          <div class="product__mood"> PINK . DARK RED </div>
+          <div class="product__price">475 جنيه</div>
+        </a>
+
+        <a href="product.html?id=model6" class="product fade-up">
+          <div class="product__media" style="background:#F5ECD722;">
+            <img src="images/model6-offwhite-1.jpg" alt="موديل 6" style="width:100%;height:100%;object-fit:cover" onerror="this.style.display='none'">
+          </div>
+          <div class="product__name">موديل 6</div>
+          <div class="product__mood"> Off-White </div>
+          <div class="product__price">475 جنيه</div>
+        </a>
+
+        <a href="product.html?id=model7" class="product fade-up">
+          <div class="product__media" style="background:#F5ECD722;">
+            <img src="images/model7-offwhite-1.jpg" alt="موديل 7" style="width:100%;height:100%;object-fit:cover" onerror="this.style.display='none'">
+          </div>
+          <div class="product__name">موديل 7</div>
+          <div class="product__mood"> Off-White </div>
+          <div class="product__price">475 جنيه</div>
+        </a>
+
+        <a href="product.html?id=model8" class="product fade-up">
+          <div class="product__media" style="background:#1A1A1A22;">
+            <img src="images/model8-maroon-1.jpg" alt="موديل 8" style="width:100%;height:100%;object-fit:cover" onerror="this.style.display='none'">
+          </div>
+          <div class="product__name">موديل 8</div>
+          <div class="product__mood"> DARK RED . Off-White . ORANGE . Navy </div>
+          <div class="product__price">475 جنيه</div>
+        </a>
+
+
+    
+  </section>
+
+  
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="footer__brand-name">SERENA</div>
+          <p class="footer__tagline" data-i18n="footer_tagline"></p>
+          <div class="footer__social">
+            <a href="https://www.instagram.com/serena.official1" aria-label="Instagram" target="_blank">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <rect x="3" y="3" width="18" height="18" rx="5"/>
+                <circle cx="12" cy="12" r="4"/>
+                <circle cx="17.5" cy="6.5" r="1" fill="currentColor"/>
+              </svg>
+            </a>
+            <a href="https://www.facebook.com/serena.official1" aria-label="Facebook" target="_blank">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M22 12a10 10 0 1 0-11.5 9.9v-7H7.9V12h2.6V9.8c0-2.6 1.5-4 3.9-4 1.1 0 2.3.2 2.3.2v2.5h-1.3c-1.3 0-1.7.8-1.7 1.6V12h2.9l-.5 2.9h-2.4v7A10 10 0 0 0 22 12Z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4 data-i18n="footer_shop"></h4>
+          <ul>
+            <li><a href="collections.html" data-i18n="footer_shop"></a></li>
+            <li><a href="collections.html">Serenity</a></li>
+            <li><a href="collections.html">Ease</a></li>
+            <li><a href="collections.html">Relax</a></li>
+            <li><a href="collections.html">Embrace</a></li>
+            <li><a href="collections.html">Assurance</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 data-i18n="footer_brand"></h4>
+          <ul>
+           
+            <li><a href="#" data-i18n="footer_press"></a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 data-i18n="footer_help"></h4>
+          <ul>
+          
+            <li><a href="size-guide.html" data-i18n="footer_size"></a></li>
+            
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 data-i18n="footer_contact"></h4>
+          <ul>
+            <li><a href="mailto:s31228973@gmail.com">s31228973@gmail.com</a></li>
+            <li><a href="#" data-i18n="footer_dm"></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div data-i18n="footer_copy"></div>
+        <div data-i18n="footer_sub"></div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- BAG DRAWER -->
+  <div class="drawer__overlay" id="drawer-overlay"></div>
+  <aside class="drawer" id="drawer">
+    <div class="drawer__head">
+      <h3 data-i18n="bag_title"></h3>
+      <button class="drawer__close" id="drawer-close">✕</button>
+    </div>
+    <div class="drawer__body" id="drawer-body"></div>
+    <div class="drawer__foot" id="drawer-foot">
+      <div class="drawer__total"><span data-i18n="bag_subtotal"></span><span id="drawer-total">$0</span></div>
+      <a href="#" class="btn btn--primary" data-i18n="bag_checkout"></a>
+    </div>
+  </aside>
+
+  <div class="toast" id="toast"></div>
+
+  <script src="js/lang.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
