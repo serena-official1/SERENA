@@ -60,7 +60,7 @@ const TRANSLATIONS = {
     prod6_name: 'Model 6',
     prod7_name: 'Model 7',
     prod8_name: 'Model 8',
-    price_475: '475 EGP',
+    price_475: '375 EGP',
 
     /* PRODUCT PAGE */
     pd_breadcrumb_home: 'Home',
@@ -246,7 +246,7 @@ lang_toggle: 'العربية',
     prod6_name: 'موديل 6',
     prod7_name: 'موديل 7',
     prod8_name: 'موديل 8',
-    price_475: '475 جنيه',
+    price_475: '375 جنيه',
 
     /* PRODUCT PAGE */
     pd_breadcrumb_home: 'الرئيسية',
